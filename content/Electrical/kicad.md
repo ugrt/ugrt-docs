@@ -1,5 +1,5 @@
 ---
-title: KiCad
+title: KiCad and Footprints
 ---
 
 We use KiCad to design schematics and printed circuit boards. We use KiCad version `9.0`. To get introduced to KiCad we recommend you see the following resources:
@@ -13,6 +13,7 @@ We use KiCad to design schematics and printed circuit boards. We use KiCad versi
 - Symbol: a standardized simple graphic that represents an electronic components
 - SMD: surface-mount device
 - THT: through-hole technology
+- IC: integrated circuit
 
 ## Schematics
 
@@ -34,9 +35,19 @@ When deciding footprints it is important to consider how it will be soldered to 
 
 ### SMD
 
+> See the [Wikipedia](https://en.wikipedia.org/wiki/Surface-mount_technology) page for more
+
 Most of a modern circuit board will consist of SMD components. SMD components are compact and easier to automate the assembly for. There are some standard package shapes and sizes that SMD components come in. For resistors and capacitors we advice that you do not choose a component smaller than `0805` size. In general, try to use appropriate footprints as we hand solder the PCBs.
 
 ![Example of component sizes](images/smd-sizes.jpg)
+
+This picture demonstrates the size of a `0402` (smallest), `0805` (middle), and `1812` (largest). Beside these components is the tip of a sewing needle. Credit goes to **Justin M** for this picture.
+
+### THT
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/Through-hole_technology) page for more
+
+THT components have leads which are inserted through holes drilled in a PCB. Some ICs can be found in THT packages and are easiest to solder in this form. THT components are quite large but are easier to solder than SMD components.
 
 ## Recommended Project Structure
 
