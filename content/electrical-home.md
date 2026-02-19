@@ -11,11 +11,11 @@ title: Electrical
 
 The electrical subsection holds meetings on a weekly basis every Wednesday at 7:00 PM. Electrical holds meetings at the same time as firmware. See the electrical [Gallery](#gallery) for a preview of the kind of work Electrical does.
 
-To get started check out [[/electrical/KiCad | KiCad and Footprints]].
+To get started check out [[/Electrical/KiCad | KiCad and Footprints]].
 
 ## Tools that we use
 
-Electrical mainly uses [[/electrical/KiCad]] to design schematics and printed circuit boards. We use KiCad version `9.0`.
+Electrical mainly uses [[/Electrical/KiCad]] to design schematics and printed circuit boards. We use KiCad version `9.0`.
 
 ## Projects in the works
 

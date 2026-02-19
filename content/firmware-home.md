@@ -11,11 +11,11 @@ title: Firmware
 
 The firmware subsection holds meetings on a weekly basis every Wednesday at 7:00 PM. Firmware holds meetings at the same time as electrical.
 
-To get started check out [[/firmware/stm-cube | STMCube]].
+To get started check out [[/Firmware/stm-cube | STMCube]].
 
 ## Tools that we use
 
-Firmware mainly uses the [[/firmware/stm-cube | STMCube]] suite to write firmware for the microprocessors on the boards that we design. We mainly use `STM32` chips which have better performance than Arduino's and give us more flexibility. We write firmware in `C`. We use STMCubeIDE version `1.18.1`.
+Firmware mainly uses the [[/Firmware/stm-cube | STMCube]] suite to write firmware for the microprocessors on the boards that we design. We mainly use `STM32` chips which have better performance than Arduino's and give us more flexibility. We write firmware in `C`. We use STMCubeIDE version `1.18.1`.
 
 ## Projects in the works
 
