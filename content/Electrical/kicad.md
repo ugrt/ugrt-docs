@@ -54,7 +54,7 @@ THT components have leads which are inserted through holes drilled in a PCB. Som
 This example uses `neptune` as the project name. The root folder should be named the same as the project name. Use dashes to separate words in the project name. In this example `triton` is a component that has a footprint `.kicad_mod`, a symbol `.kicad_sym`, a 3D model `.step`, and a Datasheet `.pdf`. Organize files for a component in a folder that is placed in a dependencies folder, this way when another person opens up the project KiCad will know where to find the files.
 
 ```
-.
+neptune/
 ├── dependencies
 |   └── triton
 |       ├── triton.kicad_mod
