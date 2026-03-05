@@ -15,7 +15,7 @@ To get started check out [[/Electrical/kicad | KiCad and Footprints]].
 
 ## Tools that we use
 
-Electrical mainly uses [[/Electrical/kicad]] to design schematics and printed circuit boards. We use KiCad version `9.0`.
+Electrical mainly uses [[/Electrical/kicad | KiCad]] to design schematics and printed circuit boards. We use KiCad version `9.0`.
 
 ## Projects in the works
 

@@ -11,7 +11,7 @@ title: Firmware
 
 The firmware subsection holds meetings on a weekly basis every Wednesday at 7:00 PM. Firmware holds meetings at the same time as electrical.
 
-To get started check out [[/Firmware/stm-cube | STMCube]].
+To get started check out [[/Firmware/stm-cube | STMCube]] or [[/Firmware/can.md | CAN Bus]].
 
 ## Tools that we use
 
