@@ -21,13 +21,11 @@ Electrical mainly uses [[/Electrical/kicad | KiCad]] to design schematics and pr
 
 Most of the projects in the works can be found in the active [GitHub Repo](https://github.com/ugrt/Electrical-2026).
 
-The pages for each of these projects are shared with [[firmware-home | Firmware]].
-
-- [[/electrical/drive-board| Drive board]]
-- [[/electrical/arm-board| Arm board]]
-- [[/electrical/fan-board| Fan board]]
-- [[/electrical/light-board| Light board]]
-- [[/electrical/distro-board| Power distribution board]]
-- [[/electrical/battery-bms| Battery and battery management system]]
+- [[/Electrical/drive-board| Drive board]]
+- [[/Electrical/arm-board| Arm board]]
+- [[/Electrical/fan-board| Fan board]]
+- [[/Electrical/light-board| Light board]]
+- [[/Electrical/distro-board| Power distribution board]]
+- [[/Electrical/battery-bms| Battery and battery management system]]
 
 ## Gallery
