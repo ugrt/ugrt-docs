@@ -1,26 +1,36 @@
 ---
 title: Power Distributiom Board (PDB)
 ---
+
 The PDB organizes the distribution of the power from the battery into various boards and devices around the rover. The PDB is separated into 7 channels with 3 different voltages that it outputs across 19 terminals. The PDB receives 24V in XT90 form from the [[battery-bms|BMS]]. The PDB stacks the converters on a tray to save the horizontal space it takes up in the enclosure.
+
 # Terminology
+
 - Channel: a means for power to flow through, usually grouped by converter
 - Converter: a module that converts one voltage to another, usually a buck or boost type
 - Buck converter: a module that turns a **higher** input voltage into a **lower** output voltage
 - Boost converter: a module that turns a **lower** input voltage into a **higher** output voltage
 - Terminal: a place for a single device or module to connect into to get power
 - Power: rate of energy transfer $P=IV$ (watts)
+
 # Channel Overview
+
 The channels are organized so that major devices have their own channel. The channels are listed in the following format: `Purpose | Voltage | Connection type`
+
 1. [[light-board|Light Board]] |12V | 5x1 5mm spaced terminal block
-2. [[/electrical/arm-board|Arm Board]] | 1x12V | Single XT30
+2. Arm Board | 1x12V | Single XT30
 3. [[fan-board|Fan Board]], Orin | 3x1 5mm spaced terminal block
 4. Extra #1 | 12V | 3x1 5mm spaced terminal block
 5. Translator, Ethernet Switch | 5V | 3x1 3.5mm spaced terminal block
 6. Extra #2 | 5V | 3x1 5mm spaced terminal block
 7. Antenna | 24V | Single XT30
+
 # Future Improvements
+
 - Integrate converters into the PDB instead of using modules
+
 # Bill of Materials
+
 | Supplier | Part No                                                                                                                                        | Quick Desc                                          | QTY |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | --- |
 | Droking  | [DROK 090066](https://www.droking.com/24V-to-12V-DC-Converter-20A-Buck-Voltage-Regulator-Car-LED-Driver-Power-Supply)                          | (17-35V) to (12V) 20A Buck, 240W                    | 4   |
@@ -45,12 +55,19 @@ The channels are organized so that major devices have their own channel. The cha
 |          | [RC2010JK-07200RL](https://www.digikey.ca/en/products/detail/yageo/RC2010JK-07200RL/5921676)                                                   | 200 Ohm Power Indicator Led Resistor                | 10  |
 |          | [FIT0588](https://www.digikey.ca/en/products/detail/dfrobot/FIT0588/9559257)                                                                   | XT90 Vertical Connector Pair                        | 1   |
 |          | [FIT0586](https://www.digikey.ca/en/products/detail/dfrobot/FIT0586/9559255)                                                                   | XT30 Vertical Connector Pair                        | 16  |
+
 # Block Diagram
+
 ## Low Power
+
 ![PDB Low Power Block Diagram](/images/pdb-low.drawio.png)
+
 ## High Power
+
 ![PDB High Power Block Diagram](/images/pdb-high.drawio.png)
+
 # Gallery
+
 CAD model isometric view.
 ![[/images/pdb-cad-iso.png]]
 

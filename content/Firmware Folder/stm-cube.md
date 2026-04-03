@@ -1,5 +1,5 @@
 ---
-title: STM Cube
+title: STM32Cube
 ---
 
 We use the STM Cube suite to write firmware for the microprocessors we use in the rover. To get introduced to the STM Cube suite we recommend you see the following resources:
@@ -21,7 +21,7 @@ Once you have configured your development environment visit the `STM32G0B1CET6_C
 
 ## Hardware
 
-All of the PCBs designed use the STM32G0B1CET6. It is important that you understand the microcontroller you are working with. Here can be found the [STM32G0B1CET6 Datasheet](https://www.st.com/en/microcontrollers-microprocessors/stm32g0b1ce.html).
+All of the PCBs designed use the `STM32G0B1CET6`. It is important that you understand the microcontroller you are working with. Here can be found the [STM32G0B1CET6 Datasheet](https://www.st.com/en/microcontrollers-microprocessors/stm32g0b1ce.html).
 
 The microcontrollers within the rover communicate over the CAN bus. See the [Firmware CAN Cheat Sheet by Matthew Salazar](https://uoguelphca.sharepoint.com/:w:/s/UGRT2/IQC3aC__CbjHRJKP1y8I6A5uAemKPLo1Yo64xA2OJ4Ab364?e=iSeQQX) or visit the [[/firmware/can | CAN]] page for more.
 

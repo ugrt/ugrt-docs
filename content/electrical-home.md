@@ -11,21 +11,22 @@ title: Electrical
 
 The electrical subsection holds meetings on a weekly basis every Wednesday at 7:00 PM. Electrical holds meetings at the same time as firmware. See the electrical [Gallery](#gallery) for a preview of the kind of work Electrical does.
 
-To get started check out [[/Electrical/kicad | KiCad and Footprints]].
+To get started check out [[/Electrical-Folder/kicad | KiCad and Footprints]].
 
 ## Tools that we use
 
-Electrical mainly uses [[/Electrical/kicad | KiCad]] to design schematics and printed circuit boards. We use KiCad version `9.0`.
+Electrical mainly uses [[/Electrical-Folder/kicad | KiCad]] to design schematics and printed circuit boards. We use KiCad version `9.0`.
 
 ## Projects in the works
 
 Most of the projects in the works can be found in the active [GitHub Repo](https://github.com/ugrt/Electrical-2026).
 
-- [[/Electrical/drive-board| Drive board]]
-- [[/Electrical/arm-board| Arm board]]
-- [[/Electrical/fan-board| Fan board]]
-- [[/Electrical/light-board| Light board]]
-- [[/Electrical/distro-board| Power distribution board]]
-- [[/Electrical/battery-bms| Battery and battery management system]]
+- [[/Electrical-Folder/fan-board| Fan board]]
+- [[/Electrical-Folder/light-board| Light board]]
+- [[/Electrical-Folder/distro-board| Power distribution board]]
+- [[/Electrical-Folder/battery-bms| Battery and battery management system]]
 
 ## Gallery
+
+| ![[laying-wire.JPG]]<br><br>Laying out CAN harness | ![[lightboard-hotplate.jpeg]]<br><br>Soldering Steering Boards on a hot plate |
+| -------------------------------------------------- | ----------------------------------------------------------------------------- |

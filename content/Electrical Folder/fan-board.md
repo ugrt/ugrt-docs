@@ -1,9 +1,11 @@
 ---
 title: Fan Board
 ---
-The fan board monitors the temperature within the enclosure and throughout the rover either through the 2 built in NTC thermal probes or over the [[can|CAN]] network. The fan board uses the STM32G0B1CET6 to orchestrate everything. The fan board is based on the STM32G0B1CET6 template board that can be found in the [GitHub](https://github.com/ugrt/Electrical-2026). 
+
+The fan board monitors the temperature within the enclosure and throughout the rover either through the 2 built in NTC thermal probes or over the [[can|CAN]] network. The fan board uses the `STM32G0B1CET6` to orchestrate everything. The fan board is based on the `STM32G0B1CET6` template board that can be found in the [GitHub](https://github.com/ugrt/Electrical-2026).
 
 The fan board has 2 Molex 47053 connectors for fan control. The Molex 47053 is the type of connectors that can be found on most computer motherboards which means they are compatible with standard PC fans. The fan board only has 2 fan connectors because most PC fans can be daisy chained. The idea is that the two probes built into the fan board can measure the temperature directly around each set of fans. There are 3 fans on the left and right side of the enclosure.
+
 # Bill of Materials
 
 | Quantity | DigiKey Part Number         | Description                      |
@@ -23,6 +25,11 @@ The fan board has 2 Molex 47053 connectors for fan control. The Molex 47053 is t
 | 10       | RMCF0805FG100KCT-ND         | RES 100K OHM 1% 1/8W 0805        |
 | 2        | MCP2562FD-E/P-ND            | IC TRANSCEIVER 1/1 8PDIP         |
 | 5        | 732-10955-ND                | TERM BLK 2POS SIDE ENTRY 5MM PCB |
+
 # Gallery
+
 KiCad 3D PCB model.
 ![[fan-board-kicad.png]]
+
+KiCad 2D PCB model.
+![[fan-board-pcb.PNG]]

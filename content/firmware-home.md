@@ -21,9 +21,6 @@ Firmware mainly uses the [[/Firmware/stm-cube | STMCube]] suite to write firmwar
 
 Most of the projects in the works can be found in the active [GitHub Repo](https://github.com/ugrt/Firmware-F25-W26).
 
-- [[/Firmware/drive-board| Drive board]]
 - [[/Firmware/arm-board| Arm board]]
 - [[/Firmware/fan-board| Fan board]]
 - [[/Firmware/light-board| Light board]]
-- [[/Firmware/distro-board| Power distribution board]]
-- [[/Firmware/battery-bms| Battery and battery management system]]
