@@ -1,5 +1,6 @@
 ---
 title: Electrical
+draft: true
 ---
 
 ## Quick Links
@@ -26,7 +27,12 @@ Most of the projects in the works can be found in the active [GitHub Repo](https
 - [[/Electrical-Folder/distro-board| Power distribution board]]
 - [[/Electrical-Folder/battery-bms| Battery and battery management system]]
 
+## Architecture
+
+![[power-architecture.png]]
+
 ## Gallery
 
-| ![[laying-wire.JPG]]<br><br>Laying out CAN harness | ![[lightboard-hotplate.jpeg]]<br><br>Soldering Steering Boards on a hot plate |
-| -------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ![[laying-wire.JPG]] Laying out CAN harness | ![[lightboard-hotplate.jpeg]] Soldering Steering Boards on a hot plate |
+| ------------------------------------------- | ---------------------------------------------------------------------- |
+| ![[cable-management.jpg]] Cable management  | ![[enclosure-2026.jpg]] Enclosure a few weeks before 2026 competition  |

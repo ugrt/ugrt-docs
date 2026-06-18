@@ -1,5 +1,5 @@
 ---
-title: Power Distributiom Board (PDB)
+title: Power Distribution Board (PDB)
 ---
 
 The PDB organizes the distribution of the power from the battery into various boards and devices around the rover. The PDB is separated into 7 channels with 3 different voltages that it outputs across 19 terminals. The PDB receives 24V in XT90 form from the [[battery-bms|BMS]]. The PDB stacks the converters on a tray to save the horizontal space it takes up in the enclosure.

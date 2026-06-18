@@ -7,7 +7,7 @@ Based on Quartz V4. Contents is in `/content`
 - You will need `npm`
 - Install dependencies using: `npm i`
 - Run locally with `npx quartz build --serve`
-- Sync changes with `npx quartz sync`
+- Upload changes with `npx quartz sync`
 
 ## Link
 

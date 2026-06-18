@@ -1,5 +1,6 @@
 ---
 title: Firmware
+draft: true
 ---
 
 ## Quick Links

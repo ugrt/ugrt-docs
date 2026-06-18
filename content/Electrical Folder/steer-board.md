@@ -1,4 +1,4 @@
 ---
-title: Light Board
+title: Steer Board
 draft: false
 ---
