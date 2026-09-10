@@ -1,5 +1,5 @@
 ---
-title: Firmware Home
+title: Firmware Home 2025/2026
 ---
 
 ## Quick Links
@@ -20,7 +20,3 @@ Firmware mainly uses the [[/Firmware/stm-cube | STMCube]] suite to write firmwar
 ## Projects in the works
 
 Most of the projects in the works can be found in the active [GitHub Repo](https://github.com/ugrt/Firmware-F25-W26).
-
-- [[/Firmware/arm-board| Arm board]]
-- [[/Firmware/fan-board| Fan board]]
-- [[/Firmware/light-board| Light board]]

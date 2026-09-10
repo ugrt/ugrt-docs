@@ -11,7 +11,7 @@ The steer board only requires 12v power supply. The 12v supply is used as the mo
 
 # Gallery
 
-KiCad 3D PCB model.
-
+Assembled PCB.
+![[steer-board-built.jpg]]
 KiCad 2D PCB model.
 ![[steer-board-pcb.png]]

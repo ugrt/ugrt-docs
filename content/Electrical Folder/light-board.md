@@ -1,4 +1,0 @@
----
-title: Light Board
-draft: false
----
