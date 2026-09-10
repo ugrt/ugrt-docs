@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "ugrt.github.io/ugrt-docs/",
+    baseUrl: "ugrt.github.io/ugrt-docs",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -87,7 +87,7 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
-      Plugin.NotFoundPage()
+      Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
     ],
   },
