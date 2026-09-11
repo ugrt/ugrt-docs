@@ -1,3 +1,7 @@
+---
+title: Extra Resources
+---
+
 Table of extra resources. These should give a starting point to learn about robotics. Should be useful references for when you’re working on personal/team projects. Taken from SharePoint.
 
 | Name                                   | Description                                                                         | Link                                                                                         |
