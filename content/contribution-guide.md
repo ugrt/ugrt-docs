@@ -24,13 +24,13 @@ title: Contribution Guide
 Quartz can also automatically display inter-page links based on the filename but this is also rarely the best looking link. When making an inter-page link you can use the `|` character to split the file name from the display name. An example of this can be found below. Obsidian has built in support for editing this attribute.
 
 ```Markdown
-[[/Firmware/arm-board|Arm Board]]
+[[/Resources/Electrical Resources/can|CAN Bus]]
 ```
 
 # Tips and Tricks
 
 Be careful about file paths and naming. Quartz is very sensitive to the case of filenames and the exact path. Try to test any inter-document links you make locally before you push to the repository.
 
-Try to make as many inter-document links as possible wherever appropriate. You want to make navigation easy and convenient. This also makes the graph that is built into Quartz look prettier. For example the `/electrical-home` page references the `/Electrical-Folder-25-26/drive-board` page.
+Try to make as many inter-document links as possible wherever appropriate. You want to make navigation easy and convenient. This also makes the graph that is built into Quartz look prettier. For example the `/Electrical-Folder-26-27/home` page references the home page of each board.
 
 Sort pages into subsection folders. This keeps proper hierarchy and flow of the UGRT docs. Major documents and subsection home pages are in the root of the `content` folder. Subsection pages go into a folder named after the corresponding subsection.

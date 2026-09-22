@@ -1,6 +1,6 @@
 # UGRT Docs
 
-Based on Quartz V4. Contents is in `/content`
+Based on Quartz V5. Contents is in `/content`
 
 ## Developing
 
