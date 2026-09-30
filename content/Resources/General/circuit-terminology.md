@@ -29,3 +29,73 @@ This picture demonstrates the size of a `0402` (smallest), `0805` (middle), and 
 > See the [Wikipedia](https://en.wikipedia.org/wiki/Through-hole_technology) page for more
 
 THT components have leads which are inserted through holes drilled in a PCB. Some ICs can be found in THT packages and are easiest to solder in this form. THT components are quite large but are easier to solder than SMD components.
+
+## STM32 – STMicroelectronics 32‑bit Microcontroller
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/STM32) page for more
+
+STM32 is a family of ARM Cortex‑based microcontrollers widely used in embedded systems. On the LightBoard, it handles PWM generation, CAN communication, and general control tasks, offering a balance of performance, peripherals, and low power consumption.
+
+---
+
+## SMD – Surface‑Mount Device
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/Surface-mount_technology) page for more
+
+Surface‑mount devices are electronic components soldered directly onto the surface of a PCB. SMD packaging allows for compact layouts, automated assembly, and higher component density compared to through‑hole parts.
+
+---
+
+## PWM – Pulse Width Modulation
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/Pulse-width_modulation) page for more
+
+Pulse width modulation is a technique for controlling power delivery by varying the duty cycle of a digital signal. On the LightBoard, PWM is used to adjust LED brightness through a transistor driver stage.
+
+---
+
+## CAN – Controller Area Network
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/CAN_bus) page for more
+
+CAN is a robust communication protocol designed for reliable data exchange between microcontroller‑based devices. The LightBoard uses CAN to transmit LED commands, synchronization messages, and system state information.
+
+---
+
+## FDCAN – Flexible Data‑Rate CAN
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/CAN_FD) page for more
+
+FDCAN is an enhanced version of CAN that supports higher data rates and extended frame formats. It enables faster communication and larger payloads, improving responsiveness for LED control and board‑to‑board messaging.
+
+---
+
+## DMA – Direct Memory Access
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/Direct_memory_access) page for more
+
+DMA allows peripherals to transfer data directly to and from memory without CPU involvement. This is essential for timing‑critical LED protocols, reducing processor load and ensuring consistent waveform generation.
+
+---
+
+## RGB – Red, Green, Blue
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model) page for more
+
+RGB refers to the three primary color channels used in LED systems. By adjusting the intensity of each channel, LEDs can produce a wide range of colors for lighting effects and animations.
+
+---
+
+## PCB – Printed Circuit Board
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/Printed_circuit_board) page for more
+
+A printed circuit board mechanically supports and electrically connects components using conductive traces. The LightBoard PCB integrates connectors, power routing, microcontroller circuitry, and LED interfaces.
+
+---
+
+## CMOS – Complementary Metal‑Oxide Semiconductor
+
+> See the [Wikipedia](https://en.wikipedia.org/wiki/CMOS) page for more
+
+CMOS refers to a semiconductor technology used to build transistors and logic circuits. On the LightBoard, a CMOS transistor is used to switch LED power based on the PWM signal from the microcontroller.
